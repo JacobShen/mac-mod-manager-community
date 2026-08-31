@@ -1,0 +1,70 @@
+name: Mod compatibility / Mod 兼容问题
+description: Report a Mod that cannot be safely imported, converted, or installed / 反馈无法安全导入、转换或安装的 Mod
+title: "[Compatibility] "
+labels: ["compatibility", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Link to the original Mod page. Do not upload or redistribute the Mod, game files, generated PAKs, license keys, or diagnostic archives. / 请提供 Mod 原始页面链接，不要上传或重新分发 Mod、游戏文件、生成的 PAK、许可证密钥或诊断压缩包。
+  - type: input
+    id: version
+    attributes:
+      label: App version and build / 软件版本与 build
+      placeholder: "0.1.0 (8)"
+    validations:
+      required: true
+  - type: dropdown
+    id: game
+    attributes:
+      label: Game / 游戏
+      options:
+        - Resident Evil 4 / 生化危机 4
+    validations:
+      required: true
+  - type: input
+    id: mod_url
+    attributes:
+      label: Original Mod page / Mod 原始页面
+      placeholder: "https://..."
+    validations:
+      required: true
+  - type: input
+    id: mod_version
+    attributes:
+      label: Mod version or release date / Mod 版本或发布日期
+    validations:
+      required: true
+  - type: dropdown
+    id: stage
+    attributes:
+      label: Failure stage / 失败阶段
+      options:
+        - Import / 导入
+        - Analysis / 分析
+        - Conversion / 转换
+        - Build / 构建
+        - Install or remove / 安装或移除
+        - Game runtime / 游戏运行
+    validations:
+      required: true
+  - type: textarea
+    id: message
+    attributes:
+      label: Exact user-facing error / 软件显示的错误
+      description: Remove personal paths before pasting. / 粘贴前请移除个人路径。
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional reproduction notes / 补充复现信息
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Confirmation / 确认
+      options:
+        - label: I understand that not every Mod can be converted safely. / 我理解软件无法安全转换所有 Mod。
+          required: true
+        - label: I did not attach game files, the Mod, generated PAKs, license data, or personal information. / 我没有附加游戏文件、Mod、生成的 PAK、许可证数据或个人信息。
+          required: true

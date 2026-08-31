@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "product": "Mac Mod Manager",
+  "version": "0.1.0",
+  "build": "8",
+  "bundleIdentifier": "com.macmodmanager.app",
+  "distribution": "Developer ID",
+  "status": "notarized-and-stapled",
+  "generatedAt": "2026-08-31T05:24:09.224Z",
+  "artifact": {
+    "file": "Mac-Mod-Manager-0.1.0-build-8.dmg",
+    "size": 116007317,
+    "sha256": "a70cf4a5e971078a1be654f3073425700f4664dce7cd1b0e8314f693a1bef71f"
+  }
+}

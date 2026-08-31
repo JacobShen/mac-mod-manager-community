@@ -1,0 +1,58 @@
+name: Software bug / 软件错误
+description: Report a reproducible Mac Mod Manager problem / 反馈可复现的软件问题
+title: "[Bug] "
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not include license keys, payment data, game files, complete Mods, or diagnostic archives. / 请勿提交许可证密钥、付款信息、游戏文件、完整 Mod 或诊断压缩包。
+  - type: input
+    id: version
+    attributes:
+      label: App version and build / 软件版本与 build
+      placeholder: "0.1.0 (8)"
+    validations:
+      required: true
+  - type: dropdown
+    id: language
+    attributes:
+      label: App language / 软件语言
+      options:
+        - English
+        - 简体中文
+    validations:
+      required: true
+  - type: input
+    id: macos
+    attributes:
+      label: macOS and Mac model / macOS 与 Mac 型号
+      placeholder: "macOS 15.x, Apple M2"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction steps / 复现步骤
+      description: Remove personal paths and private information. / 请移除个人路径和隐私信息。
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result / 预期结果
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual result / 实际结果
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy confirmation / 隐私确认
+      options:
+        - label: I removed license, payment, game/Mod files, and personal data. / 我已移除许可证、付款、游戏/Mod 文件和个人信息。
+          required: true
