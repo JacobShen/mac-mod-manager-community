@@ -1,1 +1,8 @@
 .DS_Store
+*.dmg
+*.p8
+*.p12
+*.pem
+*.key
+.env
+.env.*

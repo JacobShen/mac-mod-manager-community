@@ -11,7 +11,6 @@
 - Some large imports need significant temporary disk space. The app estimates
   space before work and cleans rebuildable temporary data after completion.
 
-For a new incompatibility, use the dedicated issue form and link to the Mod's
-original page. Paid-license reports receive priority compatibility investigation;
-Community Edition fixes may arrive later or may be unavailable when safe
-conversion cannot be established.
+For a new incompatibility, use the dedicated issue form. Add the Mod's original
+page when available; it is helpful but optional. A fix may be unavailable when
+a safe conversion cannot be established.

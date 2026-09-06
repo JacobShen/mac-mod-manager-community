@@ -9,8 +9,8 @@ Before opening an issue:
 2. Search existing issues for the same symptom.
 3. Choose the dedicated software-bug or Mod-compatibility form.
 4. Remove personal paths, license information, payment data, and unrelated files.
-5. Link to the Mod's original public page instead of uploading or redistributing
-   the Mod.
+5. When available, link to the Mod's original public page instead of uploading
+   or redistributing the Mod. The link is optional.
 
 本仓库目前接受问题反馈和文档修正，不接收应用商业源码贡献。
 
@@ -20,4 +20,4 @@ Before opening an issue:
 2. 搜索是否已有相同问题；
 3. 选择软件错误或 Mod 兼容问题专用表单；
 4. 移除个人路径、许可证信息、付款数据和无关文件；
-5. 提供 Mod 原始公开页面链接，不要上传或重新分发 Mod。
+5. 如有 Mod 原始公开页面可提供链接，但不是必填项；不要上传或重新分发 Mod。

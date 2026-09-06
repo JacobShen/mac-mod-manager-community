@@ -15,17 +15,15 @@ code, or the proprietary application source.
 
 ### Current release
 
-- Version: **0.1.0 (build 8)**
-- macOS: see the current system requirements on the official website
-- Download: [macmodmanager.app](https://macmodmanager.app/en/)
-- Verify downloads with the SHA-256 value published in each GitHub Release and
-  on the official download page.
+- **0.1.0 (build 10)** is the first supported public release.
+- Download it from [macmodmanager.app](https://macmodmanager.app/en/) or the matching GitHub Release.
+- The DMG is Developer ID signed, Apple notarized, and stapled.
+- Verify the DMG against the SHA-256 published in both release channels.
 
 Community Edition supports every game module that has been officially released,
 but allows one imported top-level Mod package per game at a time. Optional
 components inside that package remain part of the same Mod. Paid licenses unlock
-batch import, full multi-Mod management, and priority compatibility maintenance
-for the licensed game scope.
+batch import and full multi-Mod management for the licensed game scope.
 
 ### Get help
 
@@ -58,14 +56,14 @@ Mac Mod Manager 是一款原生 macOS Mod 管理工具，用于导入、分析�
 
 ### 当前版本
 
-- 版本：**0.1.0（build 8）**
-- macOS 要求：以官网当前系统要求为准
-- 下载：[macmodmanager.app](https://macmodmanager.app/zh/)
-- 请使用 GitHub Release 和官网下载页同时公布的 SHA-256 校验下载文件。
+- **0.1.0（build 10）** 是首个受支持的公开版本。
+- 请从 [macmodmanager.app](https://macmodmanager.app/zh/) 或对应的 GitHub Release 下载。
+- DMG 已通过 Developer ID 签名、Apple 公证并装订公证票据。
+- 请使用 GitHub Release 与官网下载页同时公布的 SHA-256 校验 DMG。
 
 社区版支持所有已经正式发布的游戏模块，但每款游戏同一时间只允许使用一个已
 导入的顶层 Mod 包；该包中的可选组件仍视为同一个 Mod。收费许可证会按购买的
-游戏范围解锁批量导入、完整多 Mod 管理和优先兼容维护。
+游戏范围解锁批量导入和完整多 Mod 管理。
 
 ### 获取帮助
 

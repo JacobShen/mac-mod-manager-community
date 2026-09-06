@@ -1,24 +1,29 @@
 # Changelog / 更新日志
 
-## 0.1.0 (build 8) — Initial release candidate / 首发候选
+## 0.1.0 (build 10) — 2026-09-06
+
+First supported public release of Mac Mod Manager.
+
+Initial scope:
 
 - Native English and Simplified Chinese macOS interface.
-- Resident Evil 4 module with Mod import, analysis, compatible resource
-  conversion, local library management, conflict warnings, merged patch build,
-  backup, verification, and safe removal.
-- Automatic discovery of the native Mac game, with manual selection when the
-  game cannot be found.
-- Community Edition one-package-per-game workflow and license-based paid feature
-  unlocking in the same notarized application.
+- Resident Evil 4 module with import, analysis, supported resource conversion, conflict reporting, patch build, verification and removal.
+- Community Edition one-package-per-game workflow and license-based paid feature unlocking in the same application.
 - In-app software bug and Mod compatibility report preparation.
-- Developer ID signed, Apple notarized, stapled, and Gatekeeper verified.
+- Developer ID signed, Apple notarized and stapled DMG.
+
+Compatibility varies by Mod and game update. Check the live compatibility catalog and known issues before relying on a result; an unlisted Mod is not automatically incompatible.
 
 ---
 
-- 原生英文和简体中文 macOS 界面。
-- 《生化危机 4》模块：Mod 导入、分析、兼容资源转换、本地资料库管理、冲突提醒、
-  合并补丁构建、备份、验证和安全移除。
-- 自动发现 Mac 原生游戏；未找到时允许玩家手动选择。
-- 社区版每款游戏一个顶层 Mod 包，并在同一份已公证应用内通过许可证解锁收费功能。
-- 软件错误与 Mod 兼容问题的应用内报告准备功能。
-- 已通过 Developer ID 签名、Apple 公证、staple 和 Gatekeeper 验证。
+Mac Mod Manager 首个受支持的公开版本。
+
+首发范围：
+
+- 原生英文和简体中文 macOS 界面；
+- 《生化危机 4》模块：导入、分析、已支持资源转换、冲突提示、补丁构建、验证和移除；
+- 同一应用内的社区版单包流程和许可证解锁收费功能；
+- 软件问题与 Mod 兼容问题报告准备。
+- 通过 Developer ID 签名、Apple 公证并装订公证票据的 DMG。
+
+Mod 兼容性会随具体 Mod 和游戏更新而变化。使用前请查看实时兼容清单与已知问题；未列入清单并不等于不兼容。

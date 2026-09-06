@@ -6,12 +6,12 @@ body:
   - type: markdown
     attributes:
       value: |
-        Link to the original Mod page. Do not upload or redistribute the Mod, game files, generated PAKs, license keys, or diagnostic archives. / 请提供 Mod 原始页面链接，不要上传或重新分发 Mod、游戏文件、生成的 PAK、许可证密钥或诊断压缩包。
+        Link to the original Mod page when available; the link is optional. Do not upload or redistribute the Mod, game files, generated PAKs, license keys, or diagnostic archives. / 如有原始 Mod 页面可提供链接，但不是必填项。请勿上传或重新分发 Mod、游戏文件、生成的 PAK、许可证密钥或诊断压缩包。
   - type: input
     id: version
     attributes:
       label: App version and build / 软件版本与 build
-      placeholder: "0.1.0 (8)"
+      placeholder: "For example: 0.1.0 (10)"
     validations:
       required: true
   - type: dropdown
@@ -27,12 +27,17 @@ body:
     attributes:
       label: Original Mod page / Mod 原始页面
       placeholder: "https://..."
-    validations:
-      required: true
   - type: input
     id: mod_version
     attributes:
       label: Mod version or release date / Mod 版本或发布日期
+    validations:
+      required: true
+  - type: input
+    id: game_version
+    attributes:
+      label: Game version / 游戏版本
+      description: Use the version shown by the official game, not a guessed release date. / 请填写官方游戏显示的版本，不要猜测发布日期。
     validations:
       required: true
   - type: dropdown
@@ -59,6 +64,16 @@ body:
     id: notes
     attributes:
       label: Additional reproduction notes / 补充复现信息
+  - type: dropdown
+    id: reproducibility
+    attributes:
+      label: Reproducibility / 复现频率
+      options:
+        - Every time / 每次
+        - Intermittent / 偶发
+        - Once / 仅一次
+    validations:
+      required: true
   - type: checkboxes
     id: scope
     attributes:

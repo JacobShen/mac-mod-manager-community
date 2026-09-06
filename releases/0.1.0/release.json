@@ -2,14 +2,18 @@
   "schemaVersion": 1,
   "product": "Mac Mod Manager",
   "version": "0.1.0",
-  "build": "8",
+  "build": "10",
   "bundleIdentifier": "com.macmodmanager.app",
   "distribution": "Developer ID",
   "status": "notarized-and-stapled",
-  "generatedAt": "2026-08-31T05:24:09.224Z",
+  "generatedAt": "2026-09-06T12:19:50.516Z",
+  "source": {
+    "commit": "5fa831012d8affc1f8e112ff86619c9b840d3f88",
+    "tree": "clean"
+  },
   "artifact": {
-    "file": "Mac-Mod-Manager-0.1.0-build-8.dmg",
-    "size": 116007317,
-    "sha256": "a70cf4a5e971078a1be654f3073425700f4664dce7cd1b0e8314f693a1bef71f"
+    "file": "Mac-Mod-Manager-0.1.0-build-10.dmg",
+    "size": 119350749,
+    "sha256": "417caa57b5e87e5f242f357c9bb62f141abbe56c20c2a9c6bf753ffbb5b3559f"
   }
 }
