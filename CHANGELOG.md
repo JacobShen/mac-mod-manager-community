@@ -2,7 +2,8 @@
 
 ## 0.1.0 (build 10) — 2026-09-06
 
-First supported public release of Mac Mod Manager.
+First supported public release of the product now named Jacob Mod Manager. This
+release was originally published under the former name Mac Mod Manager.
 
 Initial scope:
 
@@ -16,7 +17,8 @@ Compatibility varies by Mod and game update. Check the live compatibility catalo
 
 ---
 
-Mac Mod Manager 首个受支持的公开版本。
+现名 Jacob Mod Manager 的首个受支持公开版本。此版本最初以软件原名
+Mac Mod Manager 发布。
 
 首发范围：
 

@@ -1,8 +1,8 @@
 blank_issues_enabled: false
 contact_links:
   - name: License, payment, refund, or private support / 许可证、付款、退款或私密支持
-    url: https://macmodmanager.app/#support
+    url: https://jacobmodmanager.app/#support
     about: These requests must not be public GitHub issues. / 此类请求不能通过公开 Issue 提交。
   - name: Official website / 官方网站
-    url: https://macmodmanager.app/
+    url: https://jacobmodmanager.app/
     about: Downloads, guides, pricing, and policies / 下载、指南、定价和政策

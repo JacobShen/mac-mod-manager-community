@@ -1,5 +1,5 @@
 name: Software bug / 软件错误
-description: Report a reproducible Mac Mod Manager problem / 反馈可复现的软件问题
+description: Report a reproducible Jacob Mod Manager problem / 反馈可复现的软件问题
 title: "[Bug] "
 labels: ["bug", "needs-triage"]
 body:

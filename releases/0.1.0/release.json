@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "product": "Mac Mod Manager",
+  "product": "Jacob Mod Manager",
   "version": "0.1.0",
   "build": "10",
   "bundleIdentifier": "com.macmodmanager.app",
