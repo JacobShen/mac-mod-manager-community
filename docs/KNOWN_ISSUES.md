@@ -1,9 +1,13 @@
 # Known issues
 
-- The initial release validates Resident Evil 4 only. Other listed game modules
-  remain planned and must not be treated as available.
+- Resident Evil 4 and Resident Evil 2 are released. Resident Evil 3, Village
+  and Resident Evil 7 remain planned and must not be treated as available.
+- RE2 conversion coverage includes the current tested resource corpus, but some
+  newly convertible packages have not completed gameplay validation. A package
+  importing successfully is not a guarantee that every costume, scene or
+  optional component renders correctly in every game situation.
 - Compatibility cannot be guaranteed for every Mod. Executable plugins,
-  REFramework content, scripts, and unknown or unsafe resources are rejected or
+  REFramework plugins, scripts, and unknown or unsafe resources are rejected or
   omitted rather than installed partially.
 - Two enabled Mods that target the same game path produce an overwrite warning.
   Installation may continue; the later Mod in library order wins in the merged

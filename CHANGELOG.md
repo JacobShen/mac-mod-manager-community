@@ -1,9 +1,42 @@
 # Changelog / 更新日志
 
+## 0.2.0 (build 94) — 2026-09-21
+
+Major update:
+
+- Added the Resident Evil 2 game module for macOS, including safe import,
+  analysis, conversion, library management, patch deployment, removal and
+  rollback.
+- Added RE2 collection and optional-component handling while keeping the
+  Community Edition limit at one active top-level Mod package per game.
+- Expanded fail-closed conversion coverage for RE Engine models, materials,
+  textures, prefabs, scenes, motion and physics resources.
+- Improved storage safety, interrupted-operation recovery, library migration,
+  diagnostics and compatibility reporting.
+- Renamed the distributed application to Jacob Mod Manager and retained the
+  existing license/update migration path.
+
+RE2 conversion coverage is broad, but runtime behavior still varies by Mod.
+Some newly convertible packages have not completed game-play verification; see
+Known Issues and report exact Mod/version details if a result is incorrect.
+
+---
+
+重点更新：
+
+- 新增 macOS《生化危机 2》游戏模块，支持安全导入、分析、转换、资料库管理、
+  补丁部署、移除与回滚；
+- 新增 RE2 集合与可选组件管理；社区版仍保持每款游戏同时启用一个顶层 Mod 包；
+- 扩展 RE Engine 模型、材质、贴图、预制体、场景、动作与物理资源的失败关闭转换；
+- 改进存储安全、中断恢复、资料库迁移、诊断和兼容问题反馈；
+- 发布应用名称更新为 Jacob Mod Manager，并保留现有许可证与更新迁移路径。
+
+RE2 已具备广泛转换覆盖，但具体 Mod 的游戏内表现仍可能不同；部分新近可转换包
+尚未完成实机验证。请查看已知问题，遇到异常时提供准确的 Mod 名称和版本。
+
 ## 0.1.0 (build 10) — 2026-09-06
 
-First supported public release of the product now named Jacob Mod Manager. This
-release was originally published under the former name Mac Mod Manager.
+First supported public release of Mac Mod Manager.
 
 Initial scope:
 
@@ -17,8 +50,7 @@ Compatibility varies by Mod and game update. Check the live compatibility catalo
 
 ---
 
-现名 Jacob Mod Manager 的首个受支持公开版本。此版本最初以软件原名
-Mac Mod Manager 发布。
+Mac Mod Manager 首个受支持的公开版本。
 
 首发范围：
 

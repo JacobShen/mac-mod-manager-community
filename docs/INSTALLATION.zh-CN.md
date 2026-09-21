@@ -1,9 +1,11 @@
 # 安装指南
 
+产品现名为 Jacob Mod Manager。当前公开 build 10 仍沿用原应用和 DMG 名称，请以实际下载版本中的名称为准。
+
 1. 从 [jacobmodmanager.app](https://jacobmodmanager.app/zh/) 或对应的 GitHub Release
    下载当前 DMG。
 2. 对比两个发布渠道显示的 SHA-256。
-3. 打开 DMG，将 **Jacob Mod Manager** 拖入“应用程序”。
+3. 打开 DMG，将 **Mac Mod Manager** 拖入“应用程序”。
 4. 启动软件。应用已通过 Developer ID 签名和 Apple 公证；如果下载文件校验值
    不一致，请勿绕过 macOS 安全警告。
 5. 软件会自动寻找已支持的 Mac 原生游戏。未找到时，请先安装游戏，或在设置中

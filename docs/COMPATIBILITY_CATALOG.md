@@ -6,7 +6,7 @@ Each initial entry must include:
 
 - original author, and canonical source URL when available;
 - Mod version or release date;
-- exact game version and Jacob Mod Manager build;
+- exact game version and Jacob Mod Manager build (including the original name for historical releases);
 - tested stages: import, analysis, conversion, build, install, runtime, removal and rollback;
 - result: validated, partial, incompatible, investigating, or stale after a game/app update;
 - evidence date and a privacy-safe issue or internal evidence reference.
@@ -21,7 +21,7 @@ Maintainers should triage new reports, reproduce with legally obtained local fil
 
 - 原作者，以及已知时的唯一原始来源链接；
 - Mod 版本或发布日期；
-- 精确游戏版本与 Jacob Mod Manager build；
+- 精确游戏版本与 Jacob Mod Manager build（历史版本记录保留原名）；
 - 已测试阶段：导入、分析、转换、构建、安装、运行、移除和回滚；
 - 结果：已验证、部分可用、不兼容、调查中，或因游戏/软件更新而过期；
 - 验证日期，以及不含隐私的 Issue 或内部证据引用。

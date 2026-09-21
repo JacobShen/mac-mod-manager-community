@@ -24,4 +24,4 @@
 - [ ] No game files, Mods, credentials, diagnostics, private source or signing material are attached.
 - [ ] User explicitly authorized the public repository and this Release.
 
-Jacob Mod Manager does not distribute game files or third-party Mods. Users must obtain games and Mods independently from lawful sources.
+Jacob Mod Manager is not affiliated with or endorsed by CAPCOM. Users must obtain games and Mods independently from lawful sources.
