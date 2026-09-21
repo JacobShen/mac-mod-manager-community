@@ -1,4 +1,4 @@
-# Jacob Mod Manager <version> (build <build>)
+# Jacob Mod Manager <version>
 
 > Do not publish this draft until the matching DMG has passed Developer ID signing,
 > Apple notarization, stapling, Gatekeeper, website, R2 read-back, and SHA-256 checks.
