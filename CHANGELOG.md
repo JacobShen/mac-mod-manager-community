@@ -4,6 +4,8 @@
 
 Major update:
 
+- RE2 Mod conversion currently supports Mods made for the PC non-RT version
+  only. RT-version Mods are not supported yet.
 - Added the Resident Evil 2 game module for macOS, including safe import,
   analysis, conversion, library management, patch deployment, removal and
   rollback.
@@ -26,6 +28,7 @@ Known Issues and report exact Mod/version details if a result is incorrect.
 
 重点更新：
 
+- RE2 Mod 转换目前仅支持 PC 非 RT 版 Mod；RT 版 Mod 暂不支持；
 - 新增 macOS《生化危机 2》游戏模块，支持安全导入、分析、转换、资料库管理、
   补丁部署、移除与回滚；
 - 新增 RE2 集合与可选组件管理；社区版仍保持每款游戏同时启用一个顶层 Mod 包；

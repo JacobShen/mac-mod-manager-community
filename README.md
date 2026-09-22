@@ -16,6 +16,7 @@ code, or the proprietary application source.
 ### Current release
 
 - **0.2.0** adds the Resident Evil 2 module and is the current release.
+- RE2 Mod conversion currently supports Mods made for the PC non-RT version only; RT-version Mods are not supported yet.
 - Download it from [jacobmodmanager.app](https://jacobmodmanager.app/en/) or the matching GitHub Release.
 - The distributed application now uses the Jacob Mod Manager name; existing licenses continue to use the supported migration path.
 - The DMG is Developer ID signed, Apple notarized, and stapled.
@@ -58,6 +59,7 @@ Jacob Mod Manager（原名 Mac Mod Manager）是一款原生 macOS Mod 管理工
 ### 当前版本
 
 - **0.2.0** 新增《生化危机 2》模块，是当前发布版本。
+- RE2 Mod 转换目前仅支持 PC 非 RT 版 Mod；RT 版 Mod 暂不支持。
 - 请从 [jacobmodmanager.app](https://jacobmodmanager.app/zh/) 或对应的 GitHub Release 下载。
 - 发布应用现使用 Jacob Mod Manager 名称；已有许可证继续使用受支持的迁移路径。
 - DMG 已通过 Developer ID 签名、Apple 公证并装订公证票据。
