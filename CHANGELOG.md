@@ -1,5 +1,33 @@
 # Changelog / 更新日志
 
+## 0.2.1 — 2026-10-03
+
+## 中文
+
+- 改进 RE4 纹理、服装和音频转换，修复 Definitive Playable Ada 已验证的图鉴服装、自定义头发及模型界面声音，以及 black suit 去耳环、Shermie 剧情／佣兵模式相关兼容问题。
+- 修复 Ada Wong Voice Mod – The Definitive Edition（Ada Voice）及 Leon to Ada Voice Replacement 的已验证语音转换问题。
+- 纳入 【里昂改版】狂战士（Berserker） 的阶段性兼容改进：大部分章节经用户测试暂未发现明显问题，尚未确认所有章节完全无异常。
+- 纳入 【艾达改版】女武神（Valkyrie） 的阶段性转换改进；适配仍在开发中，尚未完成全章节验证。
+- 改进排队应用 Mod 变更的可靠性，统一新版软件和官网图标。
+- App Store 0.2.1 同期修复了游戏目录授权和反复出现权限提示的问题；已有购买权益保持不变。官网版和 App Store 版使用各自独立的购买与授权渠道。
+
+更新后若旧 Mod 仍显示不兼容或效果异常，可尝试重新导入原始 Mod 包，让软件按新规则重新转换。上述兼容改进覆盖已验证的原包和场景，不代表所有 Mod、语言、存档或全部章节都已验证。
+
+RE2 Mod 转换仍仅支持 PC 非 RT 版 Mod，RT 版暂不支持。
+
+## English
+
+- Improved RE4 texture, costume, and audio conversion, including verified fixes for Definitive Playable Ada gallery outfits, authored hair, and model-viewer audio; black suit earring removal; and Shermie story/Mercenaries compatibility.
+- Fixed verified voice conversion issues in Ada Wong Voice Mod – The Definitive Edition (Ada Voice) and Leon to Ada Voice Replacement.
+- Included ongoing compatibility improvements for the Leon-campaign Berserker overhaul. The user has tested most chapters without obvious issues; every chapter has not been confirmed to be issue-free.
+- Included ongoing conversion improvements for the Ada-campaign Valkyrie overhaul. Its adaptation remains in development and has not been verified across every chapter.
+- Improved reliability when applying queued Mod changes and unified the updated app and website icons.
+- The corresponding App Store 0.2.1 update also fixes game-folder authorization and repeated permission prompts. Existing purchases remain valid. Website and App Store editions retain separate purchase and authorization channels.
+
+If a previously imported Mod still appears incompatible or behaves unexpectedly after updating, try re-importing the original Mod archive to use the latest conversion rules. These improvements cover verified original packages and scenarios, not every Mod, language, save, or chapter.
+
+RE2 Mod conversion continues to support PC non-RT Mods only. RT-version Mods are not supported yet.
+
 ## 0.2.0 — 2026-09-21
 
 Major update:
