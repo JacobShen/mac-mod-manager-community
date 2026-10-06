@@ -6,7 +6,7 @@
 ## Downloads
 
 - Official download page: https://jacobmodmanager.app/
-- DMG: `Mac-Mod-Manager-<version>-build-<build>.dmg`
+- DMG: `Jacob-Mod-Manager-<version>-build-<build>.dmg`
 - SHA-256: `<64 lowercase hexadecimal characters>`
 - Source commit recorded by release manifest: `<40 character commit>`
 

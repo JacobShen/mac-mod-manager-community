@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "product": "Jacob Mod Manager",
+  "version": "0.2.2",
+  "build": "108",
+  "bundleIdentifier": "com.macmodmanager.app",
+  "distribution": "Developer ID",
+  "status": "notarized-and-stapled",
+  "generatedAt": "2026-10-06T03:00:57.815Z",
+  "source": {
+    "commit": "b61d2b91c10bc4aa59055010f312be562bf34703",
+    "tree": "clean"
+  },
+  "artifact": {
+    "file": "Jacob-Mod-Manager-0.2.2-build-108.dmg",
+    "size": 172407968,
+    "sha256": "4e06fbbf99c6c811e82da5e1b65d633b10f53f03008d4c771af530f73fa09234"
+  }
+}

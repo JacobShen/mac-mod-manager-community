@@ -1,5 +1,25 @@
 # Changelog / 更新日志
 
+## 0.2.2 — 2026-10-06
+
+### 中文
+
+- 改进【里昂改版】狂战士（Berserker）的原始包转换、软件应用及旧缓存更新，已验证第 10 章请求场景。
+- 扩展部分 RE4 转换与组合规则，包括 Definitive Playable Ada、Shermie、Ada 旗袍／礼服及 Ashley 女仆／Princess；未验证组合仍以兼容检查为准。
+- 合入【艾达改版】女武神（Valkyrie）的阶段性代码，仍在开发中。
+- 优化导入进度、错误提示、写入失败恢复和资料库跨磁盘迁移。
+
+更新后旧 Mod 若仍不兼容或效果异常，可重新导入原始包并重新应用。不保证所有章节、存档或组合完全兼容；RE2 仍仅支持 PC 非 RT 版 Mod。此前狂战士的大部分章节反馈来自独立研究候选，不是 0.2.1 软件原始包转换流程的完整验证。
+
+### English
+
+- Improved original-package conversion, software application and legacy-cache updates for the Leon-campaign Berserker overhaul, with the requested chapter10 scenario verified.
+- Extended some RE4 conversion and combination rules, including Definitive Playable Ada, Shermie, Ada cheongsam/evening dresses, and Ashley maid/Princess; unverified combinations remain subject to compatibility checks.
+- Included ongoing code for the Ada-campaign Valkyrie overhaul, which remains in development.
+- Improved import progress, error messages, write-failure recovery and cross-volume library migration.
+
+If an older import remains incompatible or behaves unexpectedly, re-import the original archive and apply it again. Not every chapter, save or combination is fully compatible; RE2 still supports PC non-RT Mods only. Earlier multi-chapter Berserker feedback came from a separate research candidate, not complete validation of the 0.2.1 original-package software workflow.
+
 ## 0.2.1 — 2026-10-03
 
 ## 中文
