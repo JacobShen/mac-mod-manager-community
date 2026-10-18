@@ -15,7 +15,7 @@ code, or the proprietary application source.
 
 ### Current release
 
-- **0.2.3** improves preset selection and operation queues, library preservation and cache preparation, and adds Japanese UI. See [CHANGELOG.md](CHANGELOG.md) for the scope and limits.
+- **0.2.3** adds Mod presets, independent multi-library and storage management, Japanese UI, and Japanese RE4/RE2 recognition. It also updates import/apply workflows and compatibility reporting. See [CHANGELOG.md](CHANGELOG.md) for details.
 - RE2 Mod conversion currently supports PC non-RT Mods only; RT-version Mods are not supported yet.
 - If an older import remains incompatible after updating, try re-importing the original Mod archive to apply the latest conversion rules.
 - Download it from [jacobmodmanager.app](https://jacobmodmanager.app/en/) or the matching GitHub Release.
@@ -59,7 +59,7 @@ Jacob Mod Manager（原名 Mac Mod Manager）是一款原生 macOS Mod 管理工
 
 ### 当前版本
 
-- **0.2.3** 改善预设选择和操作队列、资料库保留与缓存重新准备，并新增日语界面。范围和限制见 [CHANGELOG.md](CHANGELOG.md)。
+- **0.2.3** 新增 Mod 预设、独立多资料库与存储管理、日语界面及日版 RE4／RE2 识别，并更新导入应用体验和兼容报告。完整内容见 [CHANGELOG.md](CHANGELOG.md)。
 - RE2 Mod 转换目前仅支持 PC 非 RT 版 Mod，RT 版暂不支持。
 - 更新后若旧 Mod 仍显示不兼容，可尝试重新导入原始 Mod 包，按新规则转换。
 - 请从 [jacobmodmanager.app](https://jacobmodmanager.app/zh/) 或对应的 GitHub Release 下载。

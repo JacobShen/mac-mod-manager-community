@@ -2,31 +2,31 @@
 
 ## 0.2.3 — 2026-10-18
 
-- 新增 Mod 预设管理，支持保存组合、按顺序应用多个预设、依赖排序和冲突对比，优化拖动排序与展开／折叠操作。
-- 完善多资料库管理，优化批量移动、复制、离线恢复及操作排队。
-- 改善 Mod 批量导入、应用进度、取消与失败提示，统一 RE4／RE2 的界面和操作体验。
-- 优化缓存清理、原始文件保留、旧缓存更新，以及资料库迁移与恢复。
-- 新增日语支持，优化语言切换，并更新官网日语界面展示。
-- 改善 RE2 已验证资源与组件的导入处理，支持识别日版 BIOHAZARD RE:2。
-- 完善兼容报告与支持流程，加强助手校验和文件操作安全性。
+- 新增 Mod 预设：保存常用 Mod 组合，按顺序应用多个预设，查看依赖与冲突，支持拖动排序和展开／折叠管理。
+- 新增独立多资料库管理，支持跨资料库批量移动、复制 Mod，以及离线资料库恢复和任务排队。
+- 更新 Mod 导入与应用体验，集中展示任务队列、处理进度和结果，支持取消操作，并提供更清晰的失败提示；RE4 与 RE2 保持一致的操作体验。
+- 新增资料库存储管理页面，可查看空间占用、清理缓存并保留原始文件；改进资料库迁移与恢复。
+- 新增日语界面与官网日语页面，支持在设置中切换语言。
+- 新增日版游戏识别，支持 BIOHAZARD RE:4 与 BIOHAZARD RE:2；改进 RE2 部分资源与组件的导入兼容性。
+- 改进兼容报告与问题反馈，增强文件操作的安全性。
 
-RE2 转换仍仅支持 PC 非 RT 版 Mod；部分资源和组合仍有兼容限制。RE2 游戏卷须支持安全补丁发布，不支持的网络共享卷会拒绝写入。本次不新增正式游戏、不调整价格。
+RE2 转换仍仅支持 PC 非 RT 版 Mod；部分资源和组合仍有兼容限制。
 
-官网服务（与 App 更新分开）：新老官网许可证支持两台 Mac，提供邮箱验证的设备管理与远程解绑入口。真实邮件及有效许可证解绑的完整线上闭环仍待单独验收；不作为 App Store 权益。
+官网服务：新老官网许可证支持两台 Mac，提供邮箱验证的设备管理与远程解绑入口。
 
 ---
 
-- Add Mod presets: save combinations, apply multiple presets in order, sort dependencies, compare conflicts, and improve drag ordering and expand/collapse controls.
-- Improve multi-library management, including batch move/copy, offline recovery, and queued operations.
-- Improve batch imports, apply progress, cancellation and failure messages, with a shared RE4/RE2 interface and workflow.
-- Improve cache cleanup, retained originals, legacy-cache refresh, and library migration and recovery.
-- Add Japanese support and improve language switching and the Japanese website.
-- Improve import handling for verified RE2 resources and components, and recognize the Japanese BIOHAZARD RE:2 game.
-- Improve compatibility reporting and support, helper verification, and file-operation safety.
+- Add Mod presets: save favorite Mod combinations, apply multiple presets in order, review dependencies and conflicts, and organize presets with drag ordering and expand/collapse controls.
+- Add independent multi-library management, with batch moves and copies between libraries, offline-library recovery, and queued tasks.
+- Update Mod importing and application with a unified view of queued tasks, progress and results, cancellation controls, and clearer failure messages. RE4 and RE2 share a consistent workflow.
+- Add a library storage-management page to view space usage, clean caches and retain original files; improve library migration and recovery.
+- Add a Japanese interface and Japanese website, with language selection in Settings.
+- Add recognition for the Japanese BIOHAZARD RE:4 and BIOHAZARD RE:2 games, and improve import compatibility for some RE2 resources and components.
+- Improve compatibility reports, support feedback, and file-operation safety.
 
-RE2 conversion still supports PC non-RT Mods only; some resources and combinations remain unsupported. RE2 needs a game volume that supports safe patch publication; unsupported network shares are rejected. No new game release or price change is included.
+RE2 conversion still supports PC non-RT Mods only; some resources and combinations remain unsupported.
 
-Website services, separate from the App update: new and existing website licenses support two Macs, with email-verified device management and remote-removal entry points. The complete real-email/live-license removal workflow remains separately unverified; these are not App Store entitlements.
+Website services: new and existing website licenses support two Macs, with email-verified device management and remote-removal entry points.
 
 ## 0.2.2 — 2026-10-06
 
