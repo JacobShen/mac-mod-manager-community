@@ -2,20 +2,31 @@
 
 ## 0.2.3 — 2026-10-18
 
-- 改善 Mod 预设的选择、依赖排序和操作队列。
-- 改善资料库迁移、原始文件保留和旧缓存重新准备。
-- 新增日语界面，优化语言切换。
+- 新增 Mod 预设管理，支持保存组合、按顺序应用多个预设、依赖排序和冲突对比，优化拖动排序与展开／折叠操作。
+- 完善多资料库管理，优化批量移动、复制、离线恢复及操作排队。
+- 改善 Mod 批量导入、应用进度、取消与失败提示，统一 RE4／RE2 的界面和操作体验。
+- 优化缓存清理、原始文件保留、旧缓存更新，以及资料库迁移与恢复。
+- 新增日语支持，优化语言切换，并更新官网日语界面展示。
+- 改善 RE2 已验证资源与组件的导入处理，支持识别日版 BIOHAZARD RE:2。
+- 完善兼容报告与支持流程，加强助手校验和文件操作安全性。
 
-RE2 转换暂时仅支持 PC 非 RT 版 Mod；部分资源和组合仍可能不兼容。遇到旧缓存问题可尝试重新导入原始 Mod。RE2 需要支持安全补丁发布的游戏卷；不支持该能力的网络共享卷会拒绝写入。本次不新增已发布游戏、不调整价格。
+RE2 转换仍仅支持 PC 非 RT 版 Mod；部分资源和组合仍有兼容限制。RE2 游戏卷须支持安全补丁发布，不支持的网络共享卷会拒绝写入。本次不新增正式游戏、不调整价格。
+
+官网服务（与 App 更新分开）：新老官网许可证支持两台 Mac，提供邮箱验证的设备管理与远程解绑入口。真实邮件及有效许可证解绑的完整线上闭环仍待单独验收；不作为 App Store 权益。
 
 ---
 
-- Improve preset selection, dependency ordering, and operation queues.
-- Improve library migration, retained originals, and cache preparation.
-- Add Japanese UI and improve language switching.
+- Add Mod presets: save combinations, apply multiple presets in order, sort dependencies, compare conflicts, and improve drag ordering and expand/collapse controls.
+- Improve multi-library management, including batch move/copy, offline recovery, and queued operations.
+- Improve batch imports, apply progress, cancellation and failure messages, with a shared RE4/RE2 interface and workflow.
+- Improve cache cleanup, retained originals, legacy-cache refresh, and library migration and recovery.
+- Add Japanese support and improve language switching and the Japanese website.
+- Improve import handling for verified RE2 resources and components, and recognize the Japanese BIOHAZARD RE:2 game.
+- Improve compatibility reporting and support, helper verification, and file-operation safety.
 
-RE2 conversion currently supports PC non-RT Mods only. Some resources and combinations remain unsupported; reimporting the original Mod may help with older caches. RE2 deployment requires a game volume that supports safe patch publication; network shares without that support are rejected. No new game release or price change is included.
+RE2 conversion still supports PC non-RT Mods only; some resources and combinations remain unsupported. RE2 needs a game volume that supports safe patch publication; unsupported network shares are rejected. No new game release or price change is included.
 
+Website services, separate from the App update: new and existing website licenses support two Macs, with email-verified device management and remote-removal entry points. The complete real-email/live-license removal workflow remains separately unverified; these are not App Store entitlements.
 
 ## 0.2.2 — 2026-10-06
 
