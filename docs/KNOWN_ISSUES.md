@@ -1,5 +1,6 @@
 # Known issues
 
+- RE2 patch deployment requires a game volume that supports safe exclusive publication. Unsupported network shares are rejected without overwriting game files.
 - Resident Evil 4 and Resident Evil 2 are released. Resident Evil 3, Village
   and Resident Evil 7 remain planned and must not be treated as available.
 - RE2 Mod conversion currently supports Mods made for the PC non-RT version

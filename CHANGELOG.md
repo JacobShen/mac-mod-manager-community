@@ -1,5 +1,22 @@
 # Changelog / 更新日志
 
+## 0.2.3 — 2026-10-18
+
+- 改善 Mod 预设的选择、依赖排序和操作队列。
+- 改善资料库迁移、原始文件保留和旧缓存重新准备。
+- 新增日语界面，优化语言切换。
+
+RE2 转换暂时仅支持 PC 非 RT 版 Mod；部分资源和组合仍可能不兼容。遇到旧缓存问题可尝试重新导入原始 Mod。RE2 需要支持安全补丁发布的游戏卷；不支持该能力的网络共享卷会拒绝写入。本次不新增已发布游戏、不调整价格。
+
+---
+
+- Improve preset selection, dependency ordering, and operation queues.
+- Improve library migration, retained originals, and cache preparation.
+- Add Japanese UI and improve language switching.
+
+RE2 conversion currently supports PC non-RT Mods only. Some resources and combinations remain unsupported; reimporting the original Mod may help with older caches. RE2 deployment requires a game volume that supports safe patch publication; network shares without that support are rejected. No new game release or price change is included.
+
+
 ## 0.2.2 — 2026-10-06
 
 ### 中文
