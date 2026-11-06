@@ -6,7 +6,7 @@
 
 Jacob Mod Manager (formerly Mac Mod Manager) is a native macOS tool for importing, analyzing, converting,
 organizing, installing, and safely removing compatible game Mods. The released
-game modules are **Resident Evil 4** and **Resident Evil 2** for macOS.
+game modules are **Resident Evil 4**, **Resident Evil 2**, and **Resident Evil 3** for macOS.
 
 This repository is the public home for Community Edition downloads, release
 notes, known issues, the support roadmap, and issue reports. It does **not**
@@ -15,7 +15,7 @@ code, or the proprietary application source.
 
 ### Current release
 
-- **0.2.3** adds Mod presets, independent multi-library and storage management, Japanese UI, and Japanese RE4/RE2 recognition. It also updates import/apply workflows and compatibility reporting. See [CHANGELOG.md](CHANGELOG.md) for details.
+- **0.3.0** adds the Resident Evil 3 module to the website edition. Import, preparation, enabling, removal, and restart recovery were checked with the original RE3 FOV test archive; this does not establish compatibility for every Mod or gameplay scenario. See [CHANGELOG.md](CHANGELOG.md) for details.
 - RE2 Mod conversion currently supports PC non-RT Mods only; RT-version Mods are not supported yet.
 - If an older import remains incompatible after updating, try re-importing the original Mod archive to apply the latest conversion rules.
 - Download it from [jacobmodmanager.app](https://jacobmodmanager.app/en/) or the matching GitHub Release.
@@ -51,7 +51,7 @@ because the repository is public. See [NOTICE.md](NOTICE.md).
 
 Jacob Mod Manager（原名 Mac Mod Manager）是一款原生 macOS Mod 管理工具，用于导入、分析、转换、整理、
 安装和安全移除兼容的游戏 Mod。目前已发布 macOS 版
-**《生化危机 4》**与**《生化危机 2》**游戏模块。
+**《生化危机 4》**、**《生化危机 2》**与**《生化危机 3》**游戏模块。
 
 本仓库是社区版下载、更新日志、已知问题、支持路线图和问题反馈的公开入口。
 仓库不会包含 CAPCOM 游戏文件、官方素材、第三方 Mod、许可证服务代码或软件
@@ -59,7 +59,7 @@ Jacob Mod Manager（原名 Mac Mod Manager）是一款原生 macOS Mod 管理工
 
 ### 当前版本
 
-- **0.2.3** 新增 Mod 预设、独立多资料库与存储管理、日语界面及日版 RE4／RE2 识别，并更新导入应用体验和兼容报告。完整内容见 [CHANGELOG.md](CHANGELOG.md)。
+- **0.3.0** 为官网版新增《生化危机 3》模块。已用原始 RE3 FOV 测试包核验导入、准备、启用、移除与重启恢复；不代表所有 Mod 或游戏场景均已验证。完整内容见 [CHANGELOG.md](CHANGELOG.md)。
 - RE2 Mod 转换目前仅支持 PC 非 RT 版 Mod，RT 版暂不支持。
 - 更新后若旧 Mod 仍显示不兼容，可尝试重新导入原始 Mod 包，按新规则转换。
 - 请从 [jacobmodmanager.app](https://jacobmodmanager.app/zh/) 或对应的 GitHub Release 下载。

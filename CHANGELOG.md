@@ -1,5 +1,21 @@
 # Changelog / 更新日志
 
+## 0.3.0 — 2026-11-06
+
+- 官网版新增《生化危机 3》模块，社区版仍为每款游戏同时启用一个顶层 Mod 包。
+- 使用原始 RE3 FOV 测试包验证导入、准备、FOV110 完整输出、启用、正常退出后的状态保持，以及关闭后的原件恢复；本轮未进行游戏内验证。
+- 改进 Apple Silicon 上游戏完整性哈希校验性能，保留原有 SHA-256 校验与安全边界。
+- 全游戏版一次性价格更新为 US$21.99／中国大陆 ¥150，既有全游戏用户自动获得新模块，无需补购。RE3 单游戏版为 US$5.99／¥41。
+
+本版沿用现有签名规则基线；不代表新的热更新窗口已验收，也不承诺所有 Mod、组件或游戏场景兼容。RE2 仍仅支持 PC 非 RT 版 Mod。App Store 渠道状态独立。
+
+- Add the Resident Evil 3 module to the website edition. Community Edition continues to allow one active top-level Mod package per game.
+- Verify original RE3 FOV archive import, preparation, complete FOV110 output, enabling, state persistence after normal restart, and original-file recovery after removal. Gameplay was not verified in this acceptance.
+- Improve game-integrity hashing performance on Apple Silicon while retaining SHA-256 checks and existing security boundaries.
+- Update All Games Edition to US$21.99 / mainland China ¥150, with the new module included for existing All Games owners at no extra charge. RE3 is US$5.99 / ¥41.
+
+This release retains the existing signed rule baseline. It does not establish a newly accepted hot-update window or compatibility for every Mod, component, or game scenario. RE2 still supports PC non-RT Mods only. App Store release status is independent.
+
 ## 0.2.3 — 2026-10-18
 
 - 新增 Mod 预设：保存常用 Mod 组合，按顺序应用多个预设，查看依赖与冲突，支持拖动排序和展开／折叠管理。

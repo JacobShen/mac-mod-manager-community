@@ -1,8 +1,8 @@
 # Known issues
 
 - RE2 patch deployment requires a game volume that supports safe exclusive publication. Unsupported network shares are rejected without overwriting game files.
-- Resident Evil 4 and Resident Evil 2 are released. Resident Evil 3, Village
-  and Resident Evil 7 remain planned and must not be treated as available.
+- Resident Evil 4, Resident Evil 2, and Resident Evil 3 are released on the website. Village and Resident Evil 7 remain planned.
+- RE3 launch acceptance covers the original FOV test archive with FOV110 selected, including complete generated output, enable/remove, and restart recovery. Gameplay was not verified in this release acceptance; other Mods and scenarios require separate validation.
 - RE2 Mod conversion currently supports Mods made for the PC non-RT version
   only. RT-version Mods are not supported yet.
 - RE2 conversion coverage includes the current tested resource corpus, but some

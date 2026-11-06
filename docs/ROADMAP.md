@@ -13,7 +13,7 @@ where coverage is incomplete and is reported transparently in Known Issues.
 | ---: | --- | --- |
 | 1 | Resident Evil 4 / 生化危机 4 | Released first / 首个发布 |
 | 2 | Resident Evil 2 / 生化危机 2 | Released / 已发布 |
-| 3 | Resident Evil 3 / 生化危机 3 | Planned / 计划中 |
+| 3 | Resident Evil 3 / 生化危机 3 | Released on website / 官网已发布 |
 | 4 | Resident Evil Village / 生化危机 Village（村庄） | Planned / 计划中 |
 | 5 | Resident Evil 7 biohazard / 生化危机 7 | Planned last in V1 / V1 最后 |
 
